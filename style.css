@@ -1,0 +1,405 @@
+body{
+    margin: 0%;
+}
+header{
+    background-color: black;
+    color: white;
+   padding: 1%;
+   margin-bottom: 3%;
+   width: 98%;
+}
+.brief_intro{
+    display: flex;
+    border-bottom: 2px solid black;
+    width: 80%;
+    height: 40vh;
+    margin-left: 9%;
+    margin-bottom: 5%;
+}
+.mindPic img{
+    height: 80%;
+    
+}
+.mindPic{
+    /* border:  1px solid black; */
+margin-bottom: 10%;
+height: 35vh;
+}
+.welcome{
+    /* border: 1px solid black; */
+    margin-left: 5%;
+}
+.experiment h1{
+text-align: center;
+}
+.experiment h2{
+    text-align: center;
+}
+.materials{
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 10%;
+    padding-left: 10%;
+}
+.materials p{
+    text-align: center;
+    font-size: 120%;
+}
+.styrofoam img {
+    height: 40vh;
+     /* border: 1px solid black; */
+}
+.styrofoam{
+    border-right: 1px solid black;
+}
+.balloon img{
+    height: 40vh;
+     /* border: 1px solid black; */
+}
+.balloon{
+     border-right: 1px solid black;
+}
+.straw img{
+    height: 40vh;
+     /* border: 1px solid black; */
+}
+.efficiency{
+    display: flex;
+    width: 90%;
+   margin-top: 5%;
+   gap: 2%;
+   margin-bottom: 4%;
+   margin-left: 5%;
+}
+.what_machine_solves{
+    border: 1px solid black;
+    width: 50%;
+    padding: 1%;
+    border-radius: 1vw;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+.energy_efficiency{
+    border: 1px solid black;
+    width: 50%;
+     padding: 1%;
+     border-radius: 1vw;
+     padding-left: 3%;
+      padding-right: 2%;
+}
+.explanation_video video{
+    height: 50vh;
+   width: 20vw;
+   border: 1px solid black;
+   border-radius: 1vw;
+}
+.principles{
+    display: flex;
+    gap: 5%;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+.explanation{
+    /* border: 1px solid black; */
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 1vw;
+    margin-top: -1%;
+    font-size: 100%;
+    line-height: 180%;
+    padding-right: 5%;
+}
+.mechanical_principles{
+    text-align: center;
+}
+.second_section{
+    /* border: 1px solid black; */
+    width: 70%;
+    margin: auto;
+}
+.second_section h2{
+text-align: center;
+}
+.second_section h3{
+    text-align: center;
+}
+.second_section p{
+    margin-left: 8%;
+}
+.second_section img{
+width: 40%;
+margin-left: 6%;
+}
+.rounds{
+   display: flex; 
+   /* border: 1px solid black; */
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+.event_phase{
+/* border: 1px solid blue; */
+padding: 5%;
+width: 40%;
+}
+.event_pic{
+/* border: 1px solid red; */
+}
+.event_pic img{
+    width: 70%;
+}
+.second_phase{
+display: flex;
+/* border: 1px solid black; */
+}
+.survival_pic img{
+ width: 70%;
+}
+.survival_check{
+padding: 5%;
+width: 40%;
+}
+.third_phase{
+display: flex;
+margin-top: 5%;
+/* border: 1px solid; */
+}
+.reproduction{
+/* border: 1px solid black; */
+width: 50%;
+padding: 2%;
+border-right: 2px solid black;
+}
+.drift{
+/* border: 1px solid black; */
+width: 50%;
+padding: 2%;
+}
+@media only screen and (max-width:350px){
+header{
+/* border: 1px solid red; */
+width: 67.5vw;
+    }
+    .materials{
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    .brief_intro{
+  flex-direction: column-reverse;
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 68%;
+  margin-left: 1vw;
+
+    }
+    .welcome{
+        /* border: 1px solid black; */
+        margin-left: 5%;
+      width: 92%;
+    }
+    .mindPic{
+        /* border: 1px solid greenyellow; */
+      height: 30%;
+      width: 90%;
+    }
+    .mindPic img{
+      width: 69vw;
+    }
+    .experiment h1{
+        /* border: 1px solid black; */
+        width: 50%;
+        font-size: 99%;
+        margin-left: 10%;
+    }
+    .experiment h2{
+       /* border: 1px solid black; */
+       width: 60%;
+       margin-left: 7%;
+       font-size: 100%;
+    }
+    .efficiency{
+        gap: 70%;
+    }
+    .styrofoam{
+        /* border: 1px solid black; */
+        width: 60%;
+        margin-left: -5%;
+        border-right: none;
+    }
+    .styrofoam img{
+        padding-left: 22%;
+        width: 60%;
+        height: 50%;
+    }
+    .balloon img{
+ width: 60%;
+ height: 50%;
+ padding-left: 22%;
+    }
+    .balloon{
+/* border: 1px solid black; */
+width: 60%;
+ 
+margin-left: -5%;
+border-right: none;
+    }
+    .straw{
+width: 60%;
+/* border: 1px solid black; */
+margin-left: -5%;
+    }
+    .straw img{
+        padding-left: 22%;
+        width:60%;
+        height: 40%;
+    }
+    .efficiency{
+        /* border: 1px solid black; */
+        margin-left: 2%;
+        gap: 5vh;
+        flex-direction: column;
+        width: 67%;
+    }
+    .what_machine_solves{
+        width: 93%;
+    }
+    .energy_efficiency{
+        width: 93%;
+        /* line-height: 100%; */
+    }
+    .principles{
+        flex-direction: column;
+        /* border: 1px solid black; */
+        width: 66%;
+        margin-left: 1%;
+    }
+    .mechanical_principles{
+        /* border: 1px solid black; */
+        width: 65%;
+    }
+    .explanation_video video{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .explanation{
+        /* border: 1px solid black; */
+        width: 96%;
+    }
+}
+@media only screen and (min-width:351px) and (max-width:667px){
+    header{
+        width: 99%;
+    }
+    .brief_intro{
+        /* border:  1px solid black; */
+        height: 60%;
+        width: 95%;
+        margin-left: 2%;
+        flex-direction: column-reverse;
+      
+    }
+    .mindPic{
+/* border: 1px solid black; */
+width: 98%;
+margin-left: 2%;
+    }
+    .mindPic img{
+        /* width: 100%; */
+        height: 60%;
+        
+    }
+    .welcome{
+        /* border: 1px solid red; */
+margin-top: -30%;
+width: 98%;
+margin-left: 2%;
+    }
+    .experiment h1{
+        /* border: 1px solid black; */
+        font-size: 130%;
+        width: 97%;
+        margin-left: 1%;
+    }
+    .materials{
+        flex-direction: column;
+    }
+    .styrofoam{
+        border-right: none;
+    }
+    .styrofoam img{
+        width: 90%;
+    }
+    .balloon{
+        border-right: none;
+       /* border:  1px solid black; */
+    }
+    .balloon img{
+        width: 90%;
+    }
+    .straw img{
+        padding-left: 12%;
+        width: 80%;
+    }
+    .efficiency{
+        /* border:  1px solid black; */
+        width: 97%;
+        margin-left: 2%;
+    }
+    .principles{
+        flex-direction: column;
+    }
+    .explanation_video video{
+        width: 90%;
+    }
+
+}
+@media only screen and (min-width:668px) and (max-width:1120px) {
+    header{
+        width: 97.5%;
+    }
+    .brief_intro{
+        /* border: 1px solid black; */
+        width: 96%;
+        margin-left: 2%;
+    }
+    .mindPic{
+        /* border: 1px solid blue; */
+        width: 54%;
+    }
+    .mindPic img{
+        height: 50%;
+        padding-top: 15%;
+    }
+    .welcome{
+        /* border: 1px solid black; */
+    width:50% ;
+    margin-left: 0%;
+    margin-top: 3%;
+    padding-left: 5%;
+    }
+    .materials{
+
+flex-direction: column; 
+   }
+   .styrofoam img{
+padding-left: 15%;
+   }
+   .balloon img{
+    padding-left: 10%;
+   }
+   .straw img{ 
+    padding-left: 20%;
+   }
+   .efficiency{
+    /* border:  1px solid black; */
+    width: 96%;
+    margin-left: 2%;
+   }
+   .principles{
+    flex-direction: column;
+   }
+   .explanation_video video{
+    height: 100%;
+    width: 60%;
+    margin-left:17% ;
+   }
+}
