@@ -2,10 +2,6 @@
     font-family: comic;
     src: url(fonts/Comic_Neue/ComicNeue-Regular.ttf);
 }
-@font-face {
-    font-family: araphy;
-    src: url(fonts/arapey-regular.ttf);
-}
 body{
     margin: 0%;
     font-family: araphy;

@@ -12,15 +12,12 @@
     gap: 10%;
     margin-left: 33%;
     padding-top: 2%;
-  
+    
 }
 
 .nav-bar a {
- 
-    border: 3px solid rgb(247, 232, 232);
-
     text-decoration: none;
-    color: #f1d0d0; /* pure white for high contrast */
+    color: #f1d0d0; 
     font-size: 30px;
     font-weight: 20px;
 }
