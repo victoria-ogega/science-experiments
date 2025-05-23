@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-x: hidden;
     padding: 0;
     background: #f7f7fa;
     background: linear-gradient(135deg, #ffe0ec 0%, #e0e7ff 100%);
