@@ -1,0 +1,77 @@
+.image{
+    margin: auto 0;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/trial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar{
+    align-items: center;
+    display: flex;
+    gap: 10%;
+    margin-left: 33%;
+    padding-top: 2%;
+  
+}
+
+.nav-bar a {
+ 
+    border: 3px solid rgb(247, 232, 232);
+
+    text-decoration: none;
+    color: #f1d0d0; /* pure white for high contrast */
+    font-size: 30px;
+    font-weight: 20px;
+}
+.content{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+}
+.details{
+  line-height: 1;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1%;
+
+}
+#come{
+    font-size: 60px;
+
+}
+#learn{
+    font-size: 30px;
+    
+}
+.puzzel img{
+    padding-top: 30%;
+    width: 410px;
+    height: 320px;
+    padding-left: 20%;
+}
+.sectionTwo{
+    margin-left: 18%;
+    display: flex;
+}
+.text{
+    font-size: 20px;
+    padding-top: 10%;
+    text-align: center;
+    color: rgb(235, 105, 127);
+}
+
+.sectionThree{
+    margin-left: 18%;
+    display: flex;
+    gap:10%;
+}
+
+#thinkingGirl{
+    gap:10%;
+    width: 410px;
+    height: 200px;
+}
