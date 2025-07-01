@@ -1,86 +1,74 @@
-body{
-    overflow-x:hidden ;
-    font-family: "Manrope";
+.image{
+    margin: auto 0;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/trial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .nav-bar{
-    margin-top: 2%;
-    background-color: #DE5D83;
+    align-items: center;
     display: flex;
-    justify-content: space-evenly;
-    width: 70%;
-    padding: 1%;
-    border-radius: 50px;
-
-
+    gap: 10%;
+    margin-left: 33%;
+    padding-top: 2%;
+    
 }
-.nav-bar a{
+
+.nav-bar a {
     text-decoration: none;
-        color: white;
-            font-size: larger;
-}
-.nav-bar a:hover{
-    color: rgb(12, 11, 11);
-}
-.home-container{
-    display: flex;
-    justify-content: space-around;
+    color: #f1d0d0; 
+    font-size: 30px;
+    font-weight: 20px;
 }
 .content{
-font-size: 700%;
-color: #670E29;
-}
-.image{
-    margin-top: 3%;
-    background-color: #DE5D83;
-    width: 500px;
-    padding: 5%;
-    height: 500px;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
     text-align: center;
-    border-radius: 50%;
-    /* position: relative; */
+    padding-top: 10%;
 }
+.details{
+  line-height: 1;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1%;
 
+}
+#come{
+    font-size: 60px;
+
+}
 #learn{
-    font-size: 300%;
-    font-family: "La Belle Aurore";
+    font-size: 30px;
+    
 }
-.nav{
-  position: relative;
-  width: 100%;
+.puzzel img{
+    padding-top: 30%;
+    width: 410px;
+    height: 320px;
+    padding-left: 20%;
 }
-.nav img{
-   position: absolute;
-   right: 3%;
-     top: 0%;
-    height: 100%;
+.sectionTwo{
+    margin-left: 18%;
+    display: flex;
 }
-.nav span{
-    position: absolute;
-    width: 20%;
-    top: 38%;
-    font-size: 150%;
-    right: -7%;
-    font-family: "La Belle Aurore";
-    /* border:#DE5D83 solid; */
+.text{
+    font-size: 20px;
+    padding-top: 10%;
+    text-align: center;
+    color: rgb(235, 105, 127);
 }
 
-
- #learn{
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 2px solid black; 
-  animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
-  font-family: monospace;
-  width: fit-content;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-@keyframes blink {
-  50% { border-color: transparent }
+.sectionThree{
+    margin-left: 18%;
+    display: flex;
+    gap:10%;
 }
 
-
-
-
+#thinkingGirl{
+    gap:10%;
+    width: 410px;
+    height: 200px;
+}
